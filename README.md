@@ -2,7 +2,7 @@
 
 To add ssh on github:
 1.  $ ssh-keygen -t ed25519 -C robertdegracia@gmail.com
--  creates the secret ed25519 and public ed25529.pub files
+-  creates the secret id_ed25519 and public id_ed25529.pub files
 
 2.  $ eval "$(ssh-agent -s)"
 - starts up the key agent
