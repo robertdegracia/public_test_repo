@@ -14,12 +14,11 @@ To add ssh on github:
 4.  $ ssh add ~/.ssh/id_ed25519
 
 5.  Add ed25529.pub content to github
-- 
+- Go to git hub and Profile | settings | 'SSH and GPG Keys' | Press button
+         'New SSH key' |  add contents from ed25529.pub 
 
 6.  To test:  $ssh -T git@github.com
 - Test connection to the git hub
-    - go to git hub and Profile | settings | 'SSH and GPG Keys' | Press button
-         'New SSH key' |  add contents from ed25529.pub 
-
+    
 7.  To clone as an example:
 $ git clone git@github.com:robertdegracia/public_test_repo.git
